@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="row hero-list-innerHTML">
+        </div>
+
+        <div class="row hero-list-DOM-API">
+        </div>
+
+        <div class="row" id="users">
+            <table class="table" id="table">
+                <h1>Criação via <code>&ltTemplate&gt</code> </h1>
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Username</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody id="content">
+                    <template id="hero-list-Template">
+                    <tr class="users">
+                        <th scope="row" class="id"></th>
+                        <td class="name"></td>
+                        <td class="username"></td>
+                        <td class="email"></td>
+                    </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
