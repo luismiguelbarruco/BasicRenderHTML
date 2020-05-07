@@ -1,7 +1,7 @@
 # Basic render HTML without framework
 
 Consider that if you are rendering small amounts of content, you may want to use html, javascript and DOM Api without any other tools.
-This simple example, demostrate tree approaches to render html
+This simple example, demostrate three approaches to render html
 
 ## Rendering with innerHTML
 ```html
